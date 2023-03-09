@@ -32,6 +32,7 @@ body{
 
 .aboutMe{
 padding-right: 100px;
+padding-left: 50px;
 }
 
 .professionHistory{
@@ -39,14 +40,17 @@ padding-right: 100px;
   grid-row-end: span 3;
   grid-column-start: 2;
   padding-right: 100px;
+  padding-left: 50px;
 }
 
 .educationalHistory{
   padding-right: 100px;
+  padding-left: 50px;
 }
 
 .skills{
   padding-right: 100px;
+  padding-left: 50px; 
 }
 
 .contactTitle{
