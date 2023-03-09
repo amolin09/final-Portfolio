@@ -1,0 +1,80 @@
+body{
+}
+
+.mainContainer{
+  width: 1000px;
+  margin: 0px auto;
+  background-color: lightgrey;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+}
+
+.picture{
+  grid-column: 1;
+}
+
+
+.name{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.jobtitle{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutMe{
+padding-right: 100px;
+}
+
+.professionHistory{
+  grid-row-start: 4;
+  grid-row-end: span 3;
+  grid-column-start: 2;
+  padding-right: 100px;
+}
+
+.educationalHistory{
+  padding-right: 100px;
+}
+
+.skills{
+  padding-right: 100px;
+}
+
+.contactTitle{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phoneNumber{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.address{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linkedIn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

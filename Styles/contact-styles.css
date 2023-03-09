@@ -1,0 +1,238 @@
+@media (min-width: 992px){
+  body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(124, 122, 122);
+  }
+  
+  .main-container{
+  height: 100vh;
+  width: 90vw;
+  min-width: 1000px;
+  max-width: 1000px;
+  background-color: lightgrey;
+  }
+  
+  .banner{
+    border-style: double;
+    border-radius: 30px;
+    max-width: 950px;
+    margin: 30px auto 50px auto;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    text-decoration-line: underline;
+  }
+  
+  
+  .body-container{
+    height: auto;
+    width: auto;
+    background-color: lightgrey;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-container{
+    height: 800px;
+    width: 1000px;
+    /* border: solid; */
+    border-width: 1px;
+    box-shadow: 5px blue;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .email{
+    /* border: solid 1px red; */
+    /* display: flex; */
+    /* justify-content: center;*/
+    margin-bottom: 50px;
+  }
+  
+  #email-ID{
+  font-size: 25px;
+  margin-right: 5px;
+  color: black;
+  }
+  
+  .comments{
+    font-size: 25px;
+    /* border: solid 1px blue; */
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .comments textarea{
+    font-size: 20px;
+  }
+  
+  .referred-checks{
+    margin-top: 50px;
+    /* border-style: groove; */
+    padding: 0px 20px 0px 0px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .referred-checks p{
+    font-size: 25px;
+  }
+  
+  .contact-back p{
+    font-size: 25px;
+  }
+  
+  .contact-back{
+    margin: 50px 0px;
+    font-size: 20px;
+    /* border: dotted 1px green; */
+  }
+  
+  .birthday-wish p{
+    font-size: 25px;
+  }
+  
+  .birthday-wish{
+    margin: 50px 0px;
+    font-size: 20px;
+    /* border: dotted 1px orange; */
+  }
+  
+  .go-back-link{
+    margin-left: 45%;
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 40px;
+  }
+  
+
+
+  }
+  
+  @media (max-width: 992px){
+    body{
+      display: flex;
+      justify-content: center;
+      background-color: rgb(124, 122, 122);
+      width:auto;
+    }
+    
+    .main-container{
+    height: auto;
+    width: auto;
+  
+    max-width: 1500px;
+    background-color: lightgrey;
+    }
+    
+    .banner{
+      border-style: double;
+      border-radius: 30px;
+      width: 650px;
+      margin: 30px auto 50px auto;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      text-decoration-line: underline;
+    }
+    
+    
+    .body-container{
+      height: auto;
+      width: auto;
+      background-color: lightgrey;
+      display: flex;
+      /* justify-content: center; */
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .form-container{
+      height: 800px;
+      width: 1000px;
+      /* border: solid; */
+      /* border-width: 1px; */
+      /* box-shadow: 5px blue; */
+      display: flex;
+      justify-content: center;
+    
+    }
+    
+    .email{
+      /* border: solid 1px red; */
+      /* display: flex; */
+      /* justify-content: center;*/
+      margin-bottom: 30px;
+    }
+    
+    #email-ID{
+    font-size: 20px;
+    margin-right: 5px;
+    color: black;
+    }
+    
+    .comments{
+      font-size: 20px;
+      /* border: solid 1px blue; */
+      margin-top: 0px;
+      display: flex;
+      flex-direction: column;
+  
+    }
+    
+    .comments textarea{
+      font-size: 15px;
+      height: 150px;
+      width: 435px;
+    
+    }
+    
+    .referred-checks{
+      margin-top: 30px;
+      /* border-style: groove; */
+      padding: 0px 20px 0px 0px;
+      font-size: 15px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .referred-checks p{
+      font-size: 20px;
+    }
+    
+    .contact-back p{
+      font-size: 20px;
+    }
+    
+    .contact-back{
+      margin: 30px 0px;
+      font-size: 15px;
+      /* border: dotted 1px green; */
+    }
+    
+    .birthday-wish p{
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+    
+    .birthday-wish{
+      max-width: 500px;
+      margin: 30px 0px;
+      font-size: 15px;
+      /* border: dotted 1px orange; */
+    }
+    
+    .go-back-link{
+      max-width: 50px;
+      max-height: 50px;
+      margin-top: 30px;
+    }
+    
+    
+    }

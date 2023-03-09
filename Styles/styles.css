@@ -1,0 +1,16 @@
+body{
+  background-color: lightgrey;
+}
+
+h1{
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  margin-top: 50px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
