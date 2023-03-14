@@ -17,3 +17,8 @@ p{
   display: flex;
   justify-content: center;
 }
+
+.navbar-expand-lg{
+  display: flex;
+  justify-content: center;
+}
