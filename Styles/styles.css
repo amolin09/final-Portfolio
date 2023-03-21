@@ -10,10 +10,117 @@ h1{
   justify-content: center;
 }
 
-p{
-  width: auto;
-  margin-top: 50px;
+.main-body-container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.badges{
+  width: 250px;
+  height: 250px;
   font-size: 30px;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+ #about-me-container::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../Resources/blank-gold-badge-label-2.png");
+  background-size: contain;
+  pointer-events: none;
+  z-index: -1;
+}
+
+#about-me-container:hover::before {
+  transform: rotate(360deg);
+  transition: .3s;
+}
+
+#about-me-text:hover{
+  transform: rotate(-360deg);
+}
+
+#resume-container::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../Resources/blank-gold-badge-label-2.png");
+  background-size: contain;
+  pointer-events: none;
+  z-index: -1;
+}
+
+#resume-container:hover::before {
+  transform: rotate(360deg);
+  transition: .3s;
+}
+
+#resume-text:hover{
+  transform: rotate(-360deg);
+}
+
+#contact-me-container::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../Resources/blank-gold-badge-label-2.png");
+  background-size: contain;
+  pointer-events: none;
+  z-index: -1;
+}
+
+#contact-me-container:hover::before {
+  transform: rotate(360deg);
+  transition: .3s;
+}
+
+#contact-me-text:hover{
+  transform: rotate(-360deg);
+}
+
+#gallery-container::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../Resources/blank-gold-badge-label-2.png");
+  background-size: contain;
+  pointer-events: none;
+  z-index: -1;
+}
+
+#gallery-container:hover::before {
+  transform: rotate(360deg);
+  transition: .2s;
+}
+
+#gallery-text:hover{
+  transform: rotate(-360deg);
 }
