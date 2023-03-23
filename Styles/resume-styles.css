@@ -1,4 +1,6 @@
+
 body{
+  background-image: url("../Resources/repeating-trees-background.png");
 }
 
 .mainContainer{
@@ -6,79 +8,75 @@ body{
   margin: 0px auto;
   background-color: lightgrey;
   display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
 }
 
-.picture{
-  grid-column: 1;
+.top-banner{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 50px;
+  background-color: rgb(37, 88, 182);
+  color: white;
 }
 
-
-.name{
-  grid-column-start: 2;
-  grid-column-end: 3;
+.name-container{
+  grid-column-start: 1;
   display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+}
+
+h1{
+  font-size: 36px;
+}
+
+h2{
+  font-size: 20px;
+}
+
+h3{
+  font-size: 26px;
+  color: rgb(37, 88, 182);
+}
+
+h4{
+  font-size: 26px;
+}
+
+.name-container > h1{
+  font-size: 50px;
+}
+
+.contact-info-block{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-
 }
 
-.jobtitle{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.aboutMe{
-padding-right: 100px;
-padding-left: 50px;
-}
-
-.professionHistory{
-  grid-row-start: 4;
-  grid-row-end: span 3;
-  grid-column-start: 2;
+.body-container{
+  padding-left: 130px;
   padding-right: 100px;
-  padding-left: 50px;
 }
 
-.educationalHistory{
-  padding-right: 100px;
-  padding-left: 50px;
+.body-blocks{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: dashed 1px black;
 }
 
-.skills{
-  padding-right: 100px;
-  padding-left: 50px; 
+#skills-block > ul{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.contactTitle{
-  display:flex;
-  justify-content: center;
-  align-items: center;
+.job-blocks{
+  margin: 30px 0 30px;
 }
 
-.phoneNumber{
+.job-info{
   display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.address{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.email{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.linkedIn{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#education-block{
+  border-bottom: none;
 }
