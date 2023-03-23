@@ -1,11 +1,13 @@
 
 body{
   background-image: url("../Resources/repeating-trees-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .mainContainer{
-  width: 1000px;
-  margin: 0px auto;
+  width: 970px;
+  margin: 0px auto 100px;
   background-color: lightgrey;
   display: grid;
   grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
@@ -79,4 +81,72 @@ h4{
 
 #education-block{
   border-bottom: none;
+}
+
+.school-blocks{
+  margin-top: 20px;
+}
+
+.school-info{
+  display:flex;
+}
+
+.school-info > h3{
+  font-size: 20px;
+}
+
+.school-info >h4{
+  font-size: 20px;
+}
+
+@media (max-width: 990px) {
+  .mainContainer{
+    width: 600px;
+  }
+
+  .top-banner{
+    padding: 20px;
+  }
+
+  .name-container{
+    padding-left: 0px;
+  }
+  
+  .contact-info-block{
+    font-size:14px;
+  }
+
+  .name-container > h1{
+    padding-left: 30px;
+    font-size: 30px;
+  }
+
+  .body-container{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  h1{
+    font-size: 26px;
+  }
+
+  .body-blocks > h1{
+    font-size: 20px;
+  }
+
+  .job-info > h3{
+    font-size: 16px;
+  }
+
+  .job-info > h4{
+    font-size: 16px;
+  }
+
+  .school-info > h3{
+    font-size: 16px;
+  }
+
+  .school-info > h4{
+    font-size: 16px;
+  }
 }
