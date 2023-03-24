@@ -1,0 +1,61 @@
+.main-container{
+  background-image: url("../Resources/repeating-trees-background.png");
+  background-size: cover;
+  height: 100%;
+}
+
+.top-banner{
+  display: flex;
+  justify-content: center;
+}
+
+.top-banner > span{
+  border: dotted;
+  border-radius: 20px;
+  padding: 20px 100px;
+  background-color: lightgrey;
+  opacity: .7;
+  color: rgb(65, 91, 238);
+}
+
+.top-banner > span > h1{
+  font-size: 50px;
+}
+
+.body-container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.card-containers{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+.card{
+  width: 500px;
+  height: 500px;
+  transition: .5s;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+.card-img-top{
+  max-height: 270px;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-primary{
+  width: 200px;
+}
+
