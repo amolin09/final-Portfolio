@@ -55,6 +55,11 @@ h4{
   justify-content: center;
 }
 
+.contact-symbols{
+  width:12px;
+  margin-right: 5px;
+}
+
 .body-container{
   padding-left: 130px;
   padding-right: 100px;
