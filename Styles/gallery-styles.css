@@ -37,12 +37,12 @@
 .card{
   width: 500px;
   height: 500px;
-  transition: .5s;
+  transition: .25s;
 }
 
 .card:hover{
-  transform: scale(1.1);
-  transition: .5s;
+  transform: scale(1.05);
+  transition: .25s;
 }
 
 .card-img-top{
@@ -59,3 +59,68 @@
   width: 200px;
 }
 
+@media (max-width: 1210px){
+  
+  .card-containers{
+    margin: 20px;
+  }
+  
+  .card{
+    width: 350px;
+    height: 350px;
+  }
+
+  .card-img-top{
+    max-height: 175px;
+  }
+
+  .card-title{
+    font-size: 16px;
+  }
+
+  .card-text{
+    font-size: 12px;
+  }
+
+  .btn-primary{
+    width: 125px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 788px){
+  .body-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px){
+
+  .card-containers{
+    margin: 5px;
+  }
+
+  .card{
+    width: 280px;
+    height: 280px;
+  }
+
+  .card-img-top{
+    max-height: 125px;
+  }
+
+  .card-title{
+    font-size: 12px;
+  }
+
+  .card-text{
+    font-size: 9px;
+  }
+
+  .btn-primary{
+    width: 75px;
+    font-size: 9px;
+  }
+
+}
