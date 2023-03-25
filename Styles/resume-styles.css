@@ -155,3 +155,31 @@ h4{
     font-size: 16px;
   }
 }
+
+@media(max-width: 630px){
+
+  .mainContainer{
+    width: 500px;
+    margin-bottom: 50px;
+  }
+  
+  .top-banner{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .name-container{
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .name-container > h1{
+    font-size: 30px;
+  }
+
+  .contact-info-block{
+   align-items: center;
+  }
+}
