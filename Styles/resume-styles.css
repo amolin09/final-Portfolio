@@ -176,10 +176,73 @@ h4{
   }
 
   .name-container > h1{
+    padding-left: 0;
+  }
+
+  .name-container > h1{
     font-size: 30px;
   }
 
   .contact-info-block{
    align-items: center;
+  }
+}
+
+@media(max-width: 530px){
+  .mainContainer{
+    width: 300px;
+  }
+
+  .name-container > h1 > span{
+    font-size: 24px;
+  }
+
+  .contact-info-block > span{
+    font-size: 12px;
+  }
+
+  .body-container{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .body-blocks > span > h1{
+    font-size: 18px;
+  }
+
+  .body-blocks > ul > li{
+    font-size: 12px;
+  }
+
+  .job-blocks > span > h2{
+    font-size: 14px;
+  }
+
+  .job-info > h3{
+    font-size: 14px;
+  }
+
+  .job-info > h4{
+    font-size: 14px;
+  }
+
+  .job-blocks > ul > li{
+    font-size: 12px;
+  }
+
+  .school-blocks > ul > li{
+    font-size: 12px;
+  }
+
+  .school-blocks > span > h2{
+    font-size: 14px;
+  }
+
+  .school-blocks > span > h3{
+    font-size: 14px;
+  }
+
+  .school-blocks > span > h4{
+    font-size: 14px;
   }
 }
