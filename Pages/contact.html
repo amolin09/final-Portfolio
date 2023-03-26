@@ -40,60 +40,44 @@
   </nav>
 <div class="whole-container">
   <div class="main-container">
+
+    <div id="top-banner">
     <div class="banner">
-      <h1>Let me know how to best reach you!</h1>
+      <h1>Contact Me</h1>
+    </div>
     </div>
     <div class="body-container">
       <div class="form-container">
-        <form action="contactMe-results.html" method="GET" enctype="multipart/form-data">
+        <form>
+
+          <div class="name">
+            <label for="full-name" id="name-label">Name:</label>
+            <input type="text" placeholder="Enter name" id="full-name" class="inputs" required>
+          </div>
+
           <div class="email">
             <label for="email" id="email-ID">Email:</label>
-            <input type="text" placeholder="johnsmith@email.com" name="email" required size="40">
+            <input type="text" placeholder="johnsmith@email.com" id="email" required class="inputs">
           </div>
+
+          <div class="subject">
+            <label for="subject-input" id="subject-label">Subject:</label>
+            <input type="text" placeholder="Subject" id="subject-input" required class="inputs">
+          </div>
+
           <div class="comments">
-            <label for="comments">Comments (20 min, 500 max)</label>
-            <textarea id="comments" placeholder="Comments" name="comments" minlength="20" maxlength="500" cols="25" rows="4"></textarea>
+            <label for="comments" id="comments-label">Comments (20 min, 500 max)</label>
+            <textarea id="comments" placeholder="Enter comments" minlength="20" maxlength="500" cols="25" rows="4"></textarea>
           </div>
-          <div class="referred-checks">
-            <p>How did you hear about me?</p>
-            <div>
-              <input type="checkbox" id="classmate" name="classmate-reference">
-              <label for="classmate">Classmate</label>
-            </div>
-            <div>
-              <input type="checkbox" id="resume" name="resume-reference">
-              <label for="resume">Resume Submission</label>
-            </div>
-            <div>
-              <input type="checkbox" id="linkedIn" name="linkedIn-reference">
-              <label for="linkedIn">LinkedIn</label>
-            </div>
-            <div>
-              <input type="checkbox" id="coding-academy-rec" name="coding-academy-rec-reference">
-              <label for="coding-academy-rec">Coding Academy Rec</label>
-            </div>
-          </div>
-          <div class="contact-back">
-            <p>Would you like me to reach back to you?</p>
-            <input type="radio" id="contact-back-yes" name="reply-back" value="yes">
-            <label for="contact-back-yes">Yes</label>
-            <input type="radio" id="contact-back-no" name="reply-back" value="no">
-            <label for="contact-back-no">No</label>
-          </div>
-          <div class="birthday-wish">
-            <p>If you would like to receive a friendly birthday message, please submit your birth date here:</p>
-            <input type="date" onclick="this.showPicker()" name="birthdate">
-          </div>
+
+       
+         
           <div class="submit">
             <button type="reset">Reset</button>
             <input type="submit" value="Submit">
           </div>
         </form>
-        <div class="go-back-link">
-          <a href="../index.html">
-              <button id="go-back">Go Back</button>
-          </a>
-        </div>
+        
       </div>
     </div>
     
