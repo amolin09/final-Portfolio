@@ -1,24 +1,42 @@
 body{
-  background-color: lightgrey;
+  background-image: url("../Resources/repeating-trees-background.png")
 }
 
-
-
-h1{
-  color: black;
+#top-banner{
+  background-color: rgb(47, 115, 155);
+  height: 200px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
+
+
+#top-banner > h1 > span{
+  border: dotted 3px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: lightgrey;
+  opacity: .8;
+  font-size: 75px;
+}
+
 
 .main-body-container{
+  padding-top: 100px;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
 }
 
+.badge-containers{
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .badges{
-  width: 250px;
-  height: 250px;
+  width: 500px;
+  height: 500px;
   font-size: 30px;
   background-repeat: no-repeat;
   display: flex;
@@ -27,6 +45,10 @@ h1{
   margin-top: 20px;
   margin-bottom: 50px;
   position: relative;
+}
+
+.badges > span{
+  font-size: 50px;
 }
 
  #about-me-container::before{
@@ -123,4 +145,44 @@ h1{
 
 #gallery-text:hover{
   transform: rotate(-360deg);
+}
+
+@media(max-width: 1300px){
+
+  .badges{
+    width: 350px;
+    height: 350px;
+  }
+
+  .badges > span{
+    font-size: 36px;
+  }
+}
+
+@media(max-width: 992px){
+
+  #top-banner > h1 > span{
+    
+    font-size: 50px;
+  }
+
+  .badges{
+    width: 250px;
+    height: 250px;
+  }
+
+  .badges > span{
+    font-size: 28px;
+  }
+
+}
+
+@media(max-width: 700px){
+
+  .main-body-container{
+    padding-top: 75px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+  }
 }
