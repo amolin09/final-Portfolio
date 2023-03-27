@@ -35,32 +35,7 @@ body{
   opacity: .6;
 }
 
-.header-line1{
-  /* margin: 10px; */
-  font-size: 30px;
-}
-
-.header-line2{
-  /* margin: 10px; */
-  font-size: 30px;
-}
-
-.header-line3{
-  /* margin: 10px; */
-  font-size: 30px;
-}
-
-.header-line4{
-  /* margin: 10px; */
-  font-size: 30px;
-}
-
-.header-line5{
-  /* margin: 10px; */
-  font-size: 30px;
-}
-
-.header-line6{
+.header{
   /* margin: 10px; */
   font-size: 30px;
 }
@@ -484,110 +459,52 @@ body{
 
 }
 
-@media (max-width: 1549px){
+@media (max-width: 1600px){
 
   .main-container{
-    height: 100%;
-    width: 100%;
-    background-color: lightgrey;
-    display: flex;
     flex-direction: column;
   }
   
   .side-banner{
     /* border: solid 1px red; */
-    font-family: 'Cedarville Cursive', cursive;
-    background-image: url("../Resources/repeating-trees-background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     min-height: 200px;
     width: 100%;
-    display: flex;
     justify-content: center;
-    align-items: center;
   
   }
   
   .side-banner-title{
-    height: 80%;
-    width: 80%;
+    width: 1000px;
     border-style: dotted;
-    border-radius: 75px;
-    padding: 0px 30px;
-    display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: white;
-    opacity: .65;
+    opacity: .6;
   }
   
-  .header-line1{
-    /* margin: 10px; */
-    font-size: 20px;
-  }
-  
-  .header-line2{
-    /* margin: 10px; */
-    font-size: 20px;
-  }
-  
-  .header-line3{
-    /* margin: 10px; */
-    font-size: 20px;
-  }
-  
-  .header-line4{
-    /* margin: 10px; */
-    font-size: 20px;
-  }
-  
-  .header-line5{
-    /* margin: 10px; */
-    font-size: 20px;
-  }
-  
-  .header-line6{
-    /* margin: 10px; */
+  .header{
     font-size: 20px;
   }
   
 
 .content-container{
-  /* border: solid 1px blue; */
   height: 100%;
   width: 100%;
-  display: grid;
-  grid-template-columns: fit-content(50%) fit-content(50%);
-  grid-template-rows: fit-content(33%) fit-content(33%) fit-content(34%);
-  background-image: url("../Resources/background-rain.jpg");
+  justify-content: space-evenly;
+
 }
 
 .profile-pic-content-holder{
   margin-top: 50px;
   margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 650px;
 }
 
 .profile-pic-container{
-  border-style:solid;
-  border-radius: 250px;
-  background-image: url("../Resources/cosmic-moon-pic.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 300px;
   width: 300px;
   
 }
 
 .my-philosophy-main-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   margin-top: 50px;
   margin-bottom: 50px;
   width: 650px;
@@ -596,75 +513,48 @@ body{
 
 .my-philosophy-header{
   font-size: 20px;
-  margin-bottom: 10px;
 }
 
 .my-philosophy-body{
   font-size: 20px;
-  padding: 0px 60px;
 }
 
 .my-goals-main-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 50px;
   width: 650px;
 }
 
 .my-goals-header{
   font-size: 20px;
-  margin-bottom: 10px;
 }
 
 .my-goals-body{
   font-size: 20px;
-  padding: 0px 60px;
 }
 
 .profile-pic2-content-holder{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 50px;
   width: 650px;
 }
 
 .profile-pic2-container{
-  border-style:solid;
-  border-radius: 300px;
-  background-image: url("../Resources/wolf\ about\ me\ placeholder.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 300px;
   width: 300px;
 }
 
 .profile-pic3-content-holder{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 650px;
 }
 
 .profile-pic3-container{
-  border-style:solid;
-  border-radius: 400px;
-  background-image: url("../Resources/chilling-rain-pic.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 300px;
   width: 300px;
   
 }
 
 .my-vision-main-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 650px;
+ 
 }
 
 .my-vision-header{
@@ -674,7 +564,6 @@ body{
 
 .my-vision-body{
   font-size: 20px;
-  padding: 0px 60px;
 }
 }
 
@@ -684,44 +573,105 @@ body{
   }
 
   .content-container{
-    /* border: solid 1px blue; */
-    height: auto;
-    width: 100%;
-  }  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
 
   .profile-pic-content-holder{
-    grid-row: 1;
-    grid-column: 1/span 3;
     width: auto;
   }
 
   .my-philosophy-main-container{
-    grid-row: 2;
-    grid-column: 1/span 3;
-    width: auto;
+    width: 1000px;
+    margin-bottom: 50px;
+    margin-top: 0;
   }
 
   .my-goals-main-container{
-    grid-row:4;
-    grid-column: 1/span 3;
-    width: auto;
+    width: 1000px;
   }
 
   .profile-pic2-content-holder{
-    grid-row:3;
-    grid-column: 1/span 3;
     width: auto;
   }
 
   .profile-pic3-content-holder{
-    grid-row:5;
-    grid-column: 1/span3;
     width: auto;
+    margin-bottom: 50px;
   }
 
   .my-vision-main-container{
-    grid-row:6;
-    grid-column: 1/span2;
-    width: auto;
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1000px){
+  .side-banner-title{
+    width: 600px;
+  }
+
+  .my-philosophy-main-container{
+    width: 600px;
+  }
+
+  .my-goals-main-container{
+    width: 600px;
+  }
+
+  .my-vision-main-container{
+    width: 600px;
+  }
+}
+
+@media (max-width: 620px){
+
+  .side-banner{
+    height: 100px;
+  }
+
+  .side-banner-title{
+    width: 450px;
+    height: 30%;
+  }
+
+  .header > h1{
+    font-size: 20px;
+  }
+
+  .my-philosophy-main-container{
+    width: 475px;
+  }
+
+  .my-goals-main-container{
+    width: 475px;
+  }
+
+  .my-vision-main-container{
+    width: 475px;
+  }
+
+  .profile-pic-container{
+    width: 200px;
+    height: 200px;
+  }
+
+  .profile-pic2-container{
+    width: 200px;
+    height: 200px;
+  }
+
+  .profile-pic3-container{
+    width: 200px;
+    height: 200px;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+
+  p{
+    font-size: 16px;
   }
 }
