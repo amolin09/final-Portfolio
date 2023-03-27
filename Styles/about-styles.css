@@ -629,6 +629,7 @@ body{
 
   .side-banner{
     height: 100px;
+    min-width: 0;
   }
 
   .side-banner-title{
